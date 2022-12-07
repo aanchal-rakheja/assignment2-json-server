@@ -1,0 +1,225 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "email": "user@login.com",
+      "password": "12345678",
+      "tokenkey": "admin#123"
+    }
+  ],
+  "topNavItems": [
+    {
+      "item": "Dashboard",
+      "target": "#"
+    },
+    {
+      "item": "Teams",
+      "target": "#"
+    },
+    {
+      "item": "Projects",
+      "target": "#"
+    },
+    {
+      "item": "Calendar",
+      "target": "#"
+    }
+  ],
+  "sideNavItems": [
+    {
+      "title": "Overview",
+      "icon": "overview",
+      "target": "/"
+    },
+    {
+      "title": "Pages",
+      "icon": "pages",
+      "target": "/pages"
+    },
+    {
+      "title": "Sales",
+      "icon": "sales",
+      "items": [
+        {
+          "subItem": "Product List",
+          "target": "/sales/products"
+        },
+        {
+          "subItem": "Sales Form",
+          "target": "/sales/salesform"
+        },
+        {
+          "subItem": "Invoice",
+          "target": "/sales/invoice"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "title": "Messages",
+      "icon": "messages",
+      "count": 1,
+      "target": "/messages"
+    },
+    {
+      "title": "Authentication",
+      "icon": "authentication",
+      "target": "/auth"
+    },
+    {
+      "title": "Docs",
+      "icon": "docs",
+      "target": "/docs"
+    },
+    {
+      "title": "Components",
+      "icon": "components",
+      "target": "/components"
+    },
+    {
+      "title": "Help",
+      "icon": "help",
+      "target": "/help"
+    }
+  ],
+  "topGridImages": [
+    {
+      "src": "https://img.freepik.com/free-vector/sales-consulting-concept-illustration_114360-9025.jpg?auto=format&h=200",
+      "title": "SALES CONSULTANCY"
+    },
+    {
+      "src": "https://img.freepik.com/free-vector/demand-analysts-shaking-hands-from-laptops-screens-planning-future-demand-demand-planning-demand-analytics-digital-sales-forecast-concept-illustration_335657-2098.jpg?w=2000",
+      "title": "DEMAND PLANNING"
+    },
+    {
+      "src": "https://i.pinimg.com/736x/51/df/a7/51dfa78ddf375753b2ffe92d35f5459c.jpg",
+      "title": "SALES GROWTH"
+    },
+    {
+      "src": "https://img.freepik.com/premium-vector/analysts-analyzing-market-sales-social-media-lead-generation-cartoon-marketing-funnel-flat-illustration_74855-20444.jpg?w=2000",
+      "title": "MARKETING"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "label": "01 Apr",
+      "value": 46000
+    },
+    {
+      "id": 2,
+      "label": "02 Apr",
+      "value": 50000
+    },
+    {
+      "id": 3,
+      "label": "03 Apr",
+      "value": 66000
+    },
+    {
+      "id": 4,
+      "label": "04 Apr",
+      "value": 26000
+    },
+    {
+      "id": 5,
+      "label": "05 Apr",
+      "value": 76000
+    },
+    {
+      "id": 6,
+      "label": "06 Apr",
+      "value": 86000
+    },
+    {
+      "id": 7,
+      "label": "07 Apr",
+      "value": 36000
+    },
+    {
+      "id": 8,
+      "label": "08 Apr",
+      "value": 30000
+    },
+    {
+      "id": 9,
+      "label": "09 Apr",
+      "value": 12000
+    },
+    {
+      "id": 10,
+      "label": "30 Nov",
+      "value": 40000
+    }
+  ],
+  "latestCustomers": [
+    {
+      "name": "Neil Sims",
+      "email": "email@example.com",
+      "amount": "$367",
+      "profileImg": "NeilSims.png"
+    },
+    {
+      "name": "Bonnie Green",
+      "email": "email@example.com",
+      "amount": "$3467",
+      "profileImg": "BonnieGreen.png"
+    },
+    {
+      "name": "Michael Gough",
+      "email": "email@example.com",
+      "amount": "$2367",
+      "profileImg": "MichaelGough.png"
+    },
+    {
+      "name": "Thomas Lean",
+      "email": "email@example.com",
+      "amount": "$67",
+      "profileImg": "ThomasLean.png"
+    },
+    {
+      "name": "Lana Byrd",
+      "email": "email@example.com",
+      "amount": "$367",
+      "profileImg": "LanaByrd.png"
+    },
+    {
+      "name": "Karen Nelson",
+      "email": "email@example.com",
+      "amount": "$1367",
+      "profileImg": "KarenNelson.png"
+    }
+  ],
+  "topProducts": [
+    {
+      "product": "Restaurant Booking App",
+      "description": "React and Bootstrap Framework",
+      "sales": 70
+    },
+    {
+      "product": "UI Kit",
+      "description": "React and Bootstrap Framework",
+      "sales": 54
+    },
+    {
+      "product": "Design System Pro",
+      "description": "Bootstrap Framework",
+      "sales": 47
+    },
+    {
+      "product": "Dashboard",
+      "description": "Tailwind, React",
+      "sales": 43
+    },
+    {
+      "product": "Glassmorphism UI",
+      "description": "Vue Js, Tailwind",
+      "sales": 38
+    },
+    {
+      "product": "Multipurpose Template",
+      "description": "React and Bootstrap Framework",
+      "sales": 22
+    }
+  ]
+}
