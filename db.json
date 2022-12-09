@@ -34,7 +34,21 @@
     {
       "title": "Pages",
       "icon": "pages",
-      "target": "/pages"
+      "target": "",
+      "items": [
+        {
+          "subItem": "Page 1",
+          "target": "/pages/page1"
+        },
+        {
+          "subItem": "Page 2",
+          "target": "/pages/page2"
+        },
+        {
+          "subItem": "Page 3",
+          "target": "/pages/page3"
+        }
+      ]
     },
     {
       "title": "Sales",
@@ -51,6 +65,10 @@
         {
           "subItem": "Invoice",
           "target": "/sales/invoice"
+        },
+        {
+          "subItem": "Billing",
+          "target": "/sales/billing"
         }
       ],
       "target": ""
